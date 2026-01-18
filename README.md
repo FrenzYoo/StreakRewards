@@ -77,6 +77,40 @@ No advanced technical knowledge is required for basic setup.
 
 ---
 
+## 🔑 Commands & Permissions
+
+### Player Commands
+
+* **`/dailyreward`**
+  Opens the daily reward menu.
+
+* **`/daily`**
+  Alias for `/dailyreward`.
+
+* **`/günlüködül`**
+  Opens the daily reward menu (Turkish alias).
+
+---
+
+### Admin Commands
+
+All admin commands require the following permission:
+
+* **Permission:** `streakrewards.admin`
+
+Admin commands:
+
+* **`/streakrewards reload`**
+  Reloads the plugin configuration files.
+
+* **`/streakrewards set <player> <day>`**
+  Sets a player's current streak day manually.
+
+* **`/streakrewards reset`**
+  Resets all streak data and player progress.
+
+---
+
 ## 🎯 Use Cases
 
 * Survival servers with daily login rewards
